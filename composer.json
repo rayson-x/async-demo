@@ -1,0 +1,15 @@
+{
+  "name": "sssxxxzzz/async-demo",
+  "description": "Asynchronous HTTP request demo",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.0",
+    "ant-framework/http":"dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Async\\": "src"
+    }
+  }
+}
